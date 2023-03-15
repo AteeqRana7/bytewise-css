@@ -24,7 +24,9 @@ a:hover {
 a:active {
   color: green;
 }
-
+.clr {
+  clear: both;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -75,4 +77,104 @@ a:active {
 .categories li {
   padding-bottom: 5px;
   border-bottom: 1px solid black;
+}
+
+.my-form {
+  padding: 1rem;
+}
+
+.my-form .form-group {
+  padding-bottom: 0.5rem;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.btn {
+  background-color: #333333;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(50%);
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+#main-block {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  color: white;
+  background-color: red;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid red;
+  margin-top: 2rem;
+  position: relative;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+.my-list {
+  margin: 2rem;
+}
+
+.my-list li:first-child {
+  background-color: red;
+}
+
+.my-list li:last-child {
+  background-color: gold;
+}
+
+.my-list li:nth-child(5) {
+  background-color: green;
+}
+
+.my-list li:nth-child(even) {
+  background-color: blue;
 }
